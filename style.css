@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar ol {
+    color: green;
+    margin-top: 20px;
+}
+
+.nav-bar li {
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav-bar li:hover {
+    background-color: red;
+    color: white;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.nav-bar p::first-letter {
+    color: red;
+    font-size: 2em;
+}
+
+.nav-bar p {
+    font-size: 1.5em;
+}
+
+.nav-bar h1::first-letter {
+    color: red;
+    font-size: 2em;
+}
+
+.row h1::first-letter {
+    color: red;
+}
+
+.item h1,
+p {
+    color: white;
+}
+
+.row h2::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+.Latest h2::first-letter {
+    color: red;
+    font-size: 2em;
+}
+
+.row h2 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.about h2::first-letter {
+    color: red;
+}
+
+.content:hover {
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+input {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px 40px 10px 40px;
+}
+
+.group-img {
+    width: 150px !important;
+    height: 100px !important;
+}
+
+.group-img:hover {
+    border: solid;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.fab {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list-inline li {
+    color: lawngreen;
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.footer-text {
+    color: black;
+}
+
+.footer-text span {
+    color: red;
+    font-size: 2em;
+}
